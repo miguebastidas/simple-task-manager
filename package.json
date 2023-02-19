@@ -1,0 +1,28 @@
+{
+  "name": "simple-task-manager",
+  "version": "1.0.0",
+  "description": "A simple task manager using NodeJs and Mongo",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguebastidas/simple-task-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguebastidas/simple-task-manager/issues"
+  },
+  "homepage": "https://github.com/miguebastidas/simple-task-manager#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
